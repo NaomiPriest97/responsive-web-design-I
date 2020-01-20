@@ -247,8 +247,14 @@ button{
     nav a{
         border-bottom:1px solid gray;
     }
+    .logo{
+       
+    }
     .title{
-        justify-content:center;
+        margin-bottom:0px;
+        padding-bottom:50px;
+        padding-left:120px;
+        align-items:center;
     }
     .title-left{
         margin-left:0px;
