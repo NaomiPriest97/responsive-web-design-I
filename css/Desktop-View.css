@@ -261,11 +261,18 @@ button{
         flex-direction:column;
         align-items:center;
         align-content:space-evenly;
+        margin-top:0px;
+        padding-bottom:10px;
     }
     nav a{
-        border-bottom:1px solid gray;
+        border-bottom:0.5px solid black;
         display:flex;
-        align-content:space-between;
+        align-content:center;
+        justify-content:center;
+        margin-top:15px;
+        width:80%;
+        padding:15px;
+        padding-bottom:25px;
     }
     .logoandlinks{
         display:flex;
@@ -278,21 +285,32 @@ button{
     .logo{
         display:flex;
         justify-content:center;
-        margin-left:25px;
-        width:90%;
+        margin-left:50px;
+        width:80%;
         padding-bottom:15px;
-        border-bottom:1px solid black;
+        border-bottom:0.5px solid black;
         
     }
     .title{
         margin-bottom:0px;
         padding-bottom:50px;
-        padding-left:120px;
+        justify-content:center;
         align-items:center;
+
     }
     .title-left{
         margin-left:0px;
-        margin-right:10px;
+        margin-right:150px;
+        height:400px;
+        margin-top:0px;
+        display:flex;
+        flex-direction:column;
+    }
+    h1{
+        width:360px;
+    }
+    .button{
+        margin-left:80px;
     }
     .topmiddle{
         display:flex;
